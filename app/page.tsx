@@ -1,4 +1,5 @@
 import { FloatingHearts } from "@/components/floating-hearts"
+import { AnimeBackground } from "@/components/anime-background"
 import { Hero } from "@/components/hero"
 import { ReasonsTicker } from "@/components/reasons-ticker"
 import { PhotoGallery } from "@/components/photo-gallery"
@@ -21,6 +22,7 @@ function SectionDivider() {
 export default function ValentinePage() {
   return (
     <main className="relative min-h-screen overflow-hidden">
+      <AnimeBackground />
       <FloatingHearts />
 
       <Hero />
