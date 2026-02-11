@@ -2,12 +2,10 @@ import { FloatingHearts } from "@/components/floating-hearts"
 import { Hero } from "@/components/hero"
 import { ReasonsTicker } from "@/components/reasons-ticker"
 import { PhotoGallery } from "@/components/photo-gallery"
-import { LoveMeter } from "@/components/love-meter"
 import { ComplimentGenerator } from "@/components/compliment-generator"
 import { LoveCoupons } from "@/components/love-coupons"
 import { LoveLetter } from "@/components/love-letter"
 import { CompatibilityQuiz } from "@/components/compatibility-quiz"
-import { ConfettiButton } from "@/components/confetti-button"
 import { Heart } from "lucide-react"
 
 function SectionDivider() {
@@ -33,12 +31,6 @@ export default function ValentinePage() {
 
       <SectionDivider />
 
-      <div id="love-meter">
-        <LoveMeter />
-      </div>
-
-      <SectionDivider />
-
       <ComplimentGenerator />
 
       <SectionDivider />
@@ -54,10 +46,6 @@ export default function ValentinePage() {
       <SectionDivider />
 
       <CompatibilityQuiz />
-
-      <SectionDivider />
-
-      <ConfettiButton />
 
       {/* Footer */}
       <footer className="pb-12 pt-16 text-center">
