@@ -6,38 +6,38 @@ import { Check, Ticket } from "lucide-react"
 const coupons = [
   {
     id: 1,
-    title: "Free Hug",
-    description: "Redeemable anytime, anywhere. No expiration date. Ever.",
+    title: "Abrazo Gratis",
+    description: "Canjeable en cualquier momento, en cualquier lugar. Sin fecha de vencimiento. Nunca.",
     color: "bg-primary",
   },
   {
     id: 2,
-    title: "Movie Night Veto",
-    description: "You get to pick the movie. No complaints. I will not fall asleep (probably).",
+    title: "Veto de Pelicula",
+    description: "Vos elegis la peli. Sin quejas. No me voy a dormir (probablemente).",
     color: "bg-accent",
   },
   {
     id: 3,
-    title: "Breakfast in Bed",
-    description: "One gourmet breakfast delivered bedside. May contain cereal. Accept with love.",
+    title: "Desayuno en la Cama",
+    description: "Un desayuno gourmet servido en la cama. Puede contener cereales. Acepta con amor.",
     color: "bg-primary",
   },
   {
     id: 4,
-    title: "One Free Win",
-    description: "Use this coupon to automatically win any argument. Use wisely.",
+    title: "Ganar una Discusion",
+    description: "Usa este cupon para ganar automaticamente cualquier pelea. Usalo con sabiduria, che.",
     color: "bg-accent",
   },
   {
     id: 5,
-    title: "Unlimited Compliments",
-    description: "24 hours of non-stop compliments. Warning: may become annoying.",
+    title: "Piropos Ilimitados",
+    description: "24 horas de piropos sin parar. Advertencia: puede volverse insoportable.",
     color: "bg-primary",
   },
   {
     id: 6,
-    title: "Dance Party",
-    description: "Spontaneous kitchen dance party. Song choice is yours. Bad moves guaranteed.",
+    title: "Fiesta de Baile",
+    description: "Fiesta de baile espontanea en la cocina. Vos elegis la cancion. Pasos horribles garantizados.",
     color: "bg-accent",
   },
 ]
@@ -61,10 +61,10 @@ export function LoveCoupons() {
     <section className="px-4 py-16">
       <div className="mx-auto max-w-3xl text-center">
         <h2 className="mb-2 font-serif text-3xl font-bold text-foreground md:text-4xl">
-          Love Coupons
+          Cupones de Amor
         </h2>
         <p className="mb-8 text-muted-foreground">
-          Tear one off and redeem whenever your heart desires
+          Arranca uno y canjealo cuando tu corazon lo desee
         </p>
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -106,10 +106,10 @@ export function LoveCoupons() {
                     {isRedeemed ? (
                       <>
                         <Check className="h-3 w-3" />
-                        Redeemed!
+                        Canjeado!
                       </>
                     ) : (
-                      "Tap to Redeem"
+                      "Toca para Canjear"
                     )}
                   </div>
                 </div>

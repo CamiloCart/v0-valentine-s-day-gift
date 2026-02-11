@@ -8,19 +8,19 @@ export function Hero() {
       <div className="relative z-10">
         <div className="mb-6 inline-flex items-center gap-2 rounded-full border-2 border-primary/20 bg-card px-5 py-2 text-sm font-semibold text-primary">
           <Heart className="h-4 w-4 animate-heartbeat fill-current" />
-          Happy Valentine{"'"}s Day!
+          {"Feliz San Valentin!"}
           <Heart className="h-4 w-4 animate-heartbeat fill-current" />
         </div>
 
         <h1 className="mb-6 font-serif text-5xl font-bold leading-tight text-foreground md:text-7xl lg:text-8xl text-balance">
-          You Are My <br />
-          <span className="text-primary">Favorite</span>{" "}
-          <span className="inline-block animate-wiggle">Person</span>
+          Sos Mi <br />
+          <span className="text-primary">Persona</span>{" "}
+          <span className="inline-block animate-wiggle">Favorita</span>
         </h1>
 
         <p className="mx-auto mb-8 max-w-xl text-lg text-muted-foreground leading-relaxed md:text-xl">
-          I made you this ridiculously silly website because a regular card
-          just wasn{"'"}t extra enough. Scroll down for maximum silliness.
+          Te hice esta web ridiculamente tierna porque una tarjeta normal
+          no era lo suficientemente extra. Scrollea para la locura total.
         </p>
 
         <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
@@ -29,13 +29,13 @@ export function Hero() {
             className="inline-flex items-center gap-2 rounded-full bg-primary px-8 py-3 font-semibold text-primary-foreground transition-all hover:scale-105 active:scale-95"
           >
             <Heart className="h-5 w-5 fill-current" />
-            Explore the Silliness
+            Explorar las Locuras
           </a>
           <a
             href="#love-letter"
             className="inline-flex items-center gap-2 rounded-full border-2 border-primary/30 bg-transparent px-8 py-3 font-semibold text-foreground transition-all hover:border-primary/60 hover:bg-secondary"
           >
-            Read My Love Letter
+            Leer Mi Carta de Amor
           </a>
         </div>
 

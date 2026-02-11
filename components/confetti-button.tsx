@@ -26,13 +26,13 @@ export function ConfettiButton() {
   const [count, setCount] = useState(0)
 
   const messages = [
-    "You are loved!",
-    "You are amazing!",
-    "You make the world better!",
-    "Somebody thinks you're wonderful!",
-    "You deserve all the hugs!",
-    "Your smile lights up the room!",
-    "Keep being you, gorgeous!",
+    "Sos amado/a!",
+    "Sos increible!",
+    "Haces el mundo mejor!",
+    "Alguien piensa que sos maravilloso/a!",
+    "Te mereces todos los abrazos!",
+    "Tu sonrisa ilumina la habitacion!",
+    "Segui siendo vos, hermoso/a!",
   ]
 
   const triggerConfetti = useCallback(() => {
@@ -73,10 +73,10 @@ export function ConfettiButton() {
 
       <div className="mx-auto max-w-md text-center">
         <h2 className="mb-2 font-serif text-3xl font-bold text-foreground md:text-4xl">
-          The Big Button
+          El Gran Boton
         </h2>
         <p className="mb-8 text-muted-foreground">
-          You know you want to press it. Go on. Do it.
+          Sabes que queres apretarlo. Dale. Hacelo.
         </p>
 
         <Button
@@ -85,7 +85,7 @@ export function ConfettiButton() {
           className="h-16 bg-primary px-10 text-lg text-primary-foreground shadow-lg transition-all hover:scale-105 active:scale-95"
         >
           <PartyPopper className="mr-3 h-6 w-6" />
-          CELEBRATE US!
+          FESTEJEMOS!
         </Button>
 
         {count > 0 && (
@@ -94,7 +94,7 @@ export function ConfettiButton() {
               {messages[(count - 1) % messages.length]}
             </p>
             <p className="mt-1 text-sm text-muted-foreground">
-              {"You've"} pressed this {count} {count === 1 ? "time" : "times"}. Keep going!
+              Apretaste esto {count} {count === 1 ? "vez" : "veces"}. Dale que va!
             </p>
           </div>
         )}

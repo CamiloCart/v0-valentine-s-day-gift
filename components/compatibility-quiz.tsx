@@ -6,62 +6,62 @@ import { Button } from "@/components/ui/button"
 
 const questions = [
   {
-    question: "What's your ideal date night?",
+    question: "Cual es tu cita ideal?",
     options: [
-      "Fancy dinner & candlelight",
-      "Couch, snacks & a movie",
-      "Adventure somewhere new",
-      "Cooking disaster together",
+      "Cena elegante con velitas",
+      "Sillon, snacks y una peli",
+      "Aventura en un lugar nuevo",
+      "Desastre culinario juntos",
     ],
   },
   {
-    question: "Pick a love language:",
+    question: "Elegi un lenguaje del amor:",
     options: [
-      "Words (I love your face)",
-      "Gifts (Here, I got you a rock)",
-      "Quality time (Let's stare at walls together)",
-      "Acts of service (I did the dishes!)",
+      "Palabras (me encanta tu cara)",
+      "Regalos (toma, te traje una piedra)",
+      "Tiempo de calidad (miremos la pared juntos)",
+      "Actos de servicio (lave los platos!)",
     ],
   },
   {
-    question: "Your partner is sad. What do you do?",
+    question: "Tu pareja esta triste. Que haces?",
     options: [
-      "Make them laugh until they snort",
-      "Wrap them in a blanket burrito",
-      "Order their favorite food immediately",
-      "All of the above, simultaneously",
+      "Hacerle reir hasta que le salga leche por la nariz",
+      "Envolverle en una frazada como un matambre",
+      "Pedir su comida favorita ya mismo",
+      "Todo lo anterior, simultaneamente",
     ],
   },
   {
-    question: "Pick a couple activity:",
+    question: "Elegi una actividad de pareja:",
     options: [
-      "Argue about what to eat for dinner",
-      "Fall asleep during a movie at 9pm",
-      "Take 47 selfies for one good photo",
-      "Fight over the thermostat",
+      "Discutir que pedir de delivery",
+      "Dormirse durante una peli a las 21hs",
+      "Sacar 47 selfies para una sola foto buena",
+      "Pelearse por el aire acondicionado",
     ],
   },
 ]
 
 const results = [
   {
-    title: "SOULMATE MATERIAL",
-    description: "You are 100% compatible. Actually 200%. The math doesn't lie. You two are disgustingly perfect for each other and everyone is jealous.",
+    title: "MATERIAL DE ALMAS GEMELAS",
+    description: "Son 100% compatibles. En realidad 200%. Las matematicas no mienten. Son asquerosamente perfectos el uno para el otro y todos tienen envidia.",
     percentage: 100,
   },
   {
-    title: "COSMIC LOVE CONNECTION",
-    description: "The universe literally bent space-time to bring you two together. Stars collided. Galaxies gasped. It's that serious.",
+    title: "CONEXION COSMICA DE AMOR",
+    description: "El universo literalmente doblo el espacio-tiempo para juntarlos. Las estrellas chocaron. Las galaxias se quedaron boquiabiertas. Asi de serio es.",
     percentage: 99,
   },
   {
-    title: "MEANT TO BE",
-    description: "Even fortune cookies are jealous of how perfect this match is. You complete each other like pizza completes life.",
+    title: "ESTABA ESCRITO",
+    description: "Hasta las galletitas de la fortuna tienen envidia de esta pareja. Se complementan como el mate y las facturas.",
     percentage: 98,
   },
   {
-    title: "LOVE LEGENDS",
-    description: "Romeo and Juliet? Boring. You two are the REAL love story. Minus the tragic ending, plus more snacks.",
+    title: "LEYENDAS DEL AMOR",
+    description: "Romeo y Julieta? Aburridos. Ustedes son la VERDADERA historia de amor. Sin el final tragico, con mas medialunas.",
     percentage: 97,
   },
 ]
@@ -94,10 +94,10 @@ export function CompatibilityQuiz() {
     <section className="px-4 py-16">
       <div className="mx-auto max-w-lg text-center">
         <h2 className="mb-2 font-serif text-3xl font-bold text-foreground md:text-4xl">
-          Compatibility Quiz
+          Quiz de Compatibilidad
         </h2>
         <p className="mb-8 text-muted-foreground">
-          {"100% scientific. Definitely not rigged. (It's totally rigged.)"}
+          {"100% cientifico. Definitivamente no esta armado. (Esta re armado.)"}
         </p>
 
         {showResult ? (
@@ -114,7 +114,7 @@ export function CompatibilityQuiz() {
             <Heart className="mx-auto mb-6 h-12 w-12 text-primary animate-heartbeat" />
             <Button onClick={reset} variant="outline" size="lg">
               <RotateCcw className="mr-2 h-4 w-4" />
-              Take Again (Same Result Though)
+              Hacerlo de Nuevo (Mismo Resultado Igual)
             </Button>
           </div>
         ) : (

@@ -14,8 +14,8 @@ const quicksand = Quicksand({
 })
 
 export const metadata: Metadata = {
-  title: 'Happy Valentine\'s Day!',
-  description: 'A silly and sweet Valentine\'s Day gift just for you',
+  title: 'Feliz San Valentin!',
+  description: 'Un regalo de San Valentin ridiculamente tierno solo para vos',
 }
 
 export const viewport: Viewport = {
@@ -28,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body className={`${playfair.variable} ${quicksand.variable} font-sans antialiased`}>{children}</body>
     </html>
   )

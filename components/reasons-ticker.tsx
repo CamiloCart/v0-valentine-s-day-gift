@@ -3,16 +3,17 @@
 import { Heart } from "lucide-react"
 
 const reasons = [
-  "Your laugh is contagious",
-  "You put up with my nonsense",
-  "You make burnt toast taste gourmet",
-  "Your terrible dance moves are adorable",
-  "You still love me after seeing me at 6am",
-  "You pretend my jokes are funny",
-  "You share your fries (sometimes)",
-  "You are the best big spoon AND little spoon",
-  "You smell nice (most of the time)",
-  "You make every day an adventure",
+  "Tu risa es contagiosa",
+  "Bancas todas mis locuras",
+  "Haces que la tostada quemada sepa gourmet",
+  "Tus pasos de baile horribles son adorables",
+  "Me seguis queriendo despues de verme a las 6am",
+  "Fingis que mis chistes son graciosos",
+  "Compartis tus papas fritas (a veces)",
+  "Sos la mejor cucharita grande Y chiquita",
+  "Oles bien (la mayor parte del tiempo)",
+  "Cada dia con vos es una aventura",
+  "Me cebas los mejores mates del universo",
 ]
 
 export function ReasonsTicker() {

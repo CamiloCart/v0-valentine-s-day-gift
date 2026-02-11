@@ -5,12 +5,12 @@ import { Heart } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const messages = [
-  { level: 0, text: "Click to measure your love!", emoji: "?" },
-  { level: 20, text: "A sprinkle of love detected...", emoji: "Hmm" },
-  { level: 40, text: "Love levels are rising!", emoji: "Ooh" },
-  { level: 60, text: "Significant love detected!", emoji: "Wow" },
-  { level: 80, text: "CRITICAL LOVE OVERLOAD!", emoji: "OMG" },
-  { level: 100, text: "THE LOVE METER IS BROKEN! TOO MUCH LOVE!", emoji: "BOOM" },
+  { level: 0, text: "Hace clic para medir tu amor!", emoji: "?" },
+  { level: 20, text: "Se detecta una pizca de amor...", emoji: "Hmm" },
+  { level: 40, text: "Los niveles de amor estan subiendo!", emoji: "Ooh" },
+  { level: 60, text: "Se detecto amor significativo!", emoji: "Wow" },
+  { level: 80, text: "SOBRECARGA CRITICA DE AMOR!", emoji: "OMG" },
+  { level: 100, text: "SE ROMPIO EL MEDIDOR! DEMASIADO AMOR, BOLUDO!", emoji: "BOOM" },
 ]
 
 export function LoveMeter() {
@@ -49,10 +49,10 @@ export function LoveMeter() {
     <section className="relative px-4 py-16">
       <div className="mx-auto max-w-md text-center">
         <h2 className="mb-2 font-serif text-3xl font-bold text-foreground md:text-4xl">
-          Love-O-Meter
+          Amor-O-Metro
         </h2>
         <p className="mb-8 text-muted-foreground">
-          How much love is in the air? Pump it up to find out!
+          Cuanto amor hay en el aire? Bombealo para descubrirlo!
         </p>
 
         <div className="relative mx-auto mb-8 flex flex-col items-center">
@@ -112,11 +112,11 @@ export function LoveMeter() {
             } transition-transform`}
           >
             <Heart className={`mr-2 h-5 w-5 ${level >= 100 ? "animate-heartbeat" : ""}`} />
-            {level >= 100 ? "MAX LOVE!" : "Pump Love!"}
+            {level >= 100 ? "AMOR AL MAXIMO!" : "Bombear Amor!"}
           </Button>
           {level > 0 && (
             <Button variant="outline" onClick={reset} size="lg">
-              Reset
+              Reiniciar
             </Button>
           )}
         </div>

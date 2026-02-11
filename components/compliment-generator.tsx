@@ -5,44 +5,44 @@ import { Sparkles, RefreshCw } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const adjectives = [
-  "dazzlingly gorgeous",
-  "ridiculously adorable",
-  "suspiciously charming",
-  "dangerously huggable",
-  "illegally cute",
-  "absurdly wonderful",
-  "outrageously lovable",
-  "catastrophically beautiful",
-  "overwhelmingly snuggly",
-  "hilariously perfect",
-  "shockingly delightful",
-  "unreasonably sweet",
+  "deslumbrantemente hermoso/a",
+  "ridiculamente adorable",
+  "sospechosamente encantador/a",
+  "peligrosamente abrazable",
+  "ilegalmente tierno/a",
+  "absurdamente maravilloso/a",
+  "escandalosamente querible",
+  "catastroficamente bello/a",
+  "abrumadoramente achuchable",
+  "hilarantemente perfecto/a",
+  "impactantemente divino/a",
+  "irrazonablemente dulce",
 ]
 
 const actions = [
-  "Your smile could power a small city for a week",
-  "Scientists are studying you to understand peak cuteness",
-  "You make puppies jealous of your adorableness",
-  "NASA wants to orbit around your radiance",
-  "The sun called, it wants its warmth back",
-  "Mirrors can't believe their luck when you look at them",
-  "Flowers bloom when you walk by (it's true, I saw it)",
-  "Your laugh could cure any bad day in a 5-mile radius",
-  "Teddy bears wish they could be hugged by you",
-  "The dictionary added your photo next to 'perfection'",
-  "Butterflies get butterflies when they see you",
-  "WiFi signals get stronger near you (probably)",
+  "Tu sonrisa podria darle energia a Buenos Aires por una semana",
+  "Los cientificos te estan estudiando para entender la ternura maxima",
+  "Los cachorros te tienen envidia de lo adorable que sos",
+  "La NASA quiere orbitar alrededor de tu resplandor",
+  "El sol llamo, quiere que le devuelvas el calor",
+  "Los espejos no pueden creer su suerte cuando te miras",
+  "Las flores florecen cuando pasas (es verdad, lo vi)",
+  "Tu risa podria curar cualquier mal dia en 5 km a la redonda",
+  "Los osos de peluche suenian con que los abraces",
+  "El diccionario agrego tu foto al lado de 'perfeccion'",
+  "Las mariposas sienten mariposas cuando te ven",
+  "El WiFi agarra mejor cerca tuyo (probablemente)",
 ]
 
 const endings = [
-  "and I'm not even being dramatic... okay maybe a little.",
-  "this is scientifically proven (source: my heart).",
-  "and yes, I will die on this hill.",
-  "fight me if you disagree. Actually, don't. Give me a hug instead.",
-  "and the whole universe agrees with me on this one.",
-  "and that's on FACTS, not feelings. Okay, maybe a little feelings.",
-  "I rest my case. Court adjourned. Love wins.",
-  "this message was sponsored by my overwhelming love for you.",
+  "y no estoy siendo dramatico/a... bueno, quizas un poquito.",
+  "esto esta cientificamente probado (fuente: mi corazon).",
+  "y si, voy a morir en esta colina.",
+  "peleame si no estas de acuerdo. Mejor no. Dame un abrazo.",
+  "y todo el universo esta de acuerdo conmigo en esto.",
+  "y esto son DATOS, no sentimientos. Bueno, un poquito de sentimientos.",
+  "no hay mas nada que decir. Caso cerrado. Gano el amor.",
+  "este mensaje fue sponsoreado por mi amor desmedido hacia vos.",
 ]
 
 export function ComplimentGenerator() {
@@ -55,7 +55,7 @@ export function ComplimentGenerator() {
       const adj = adjectives[Math.floor(Math.random() * adjectives.length)]
       const action = actions[Math.floor(Math.random() * actions.length)]
       const ending = endings[Math.floor(Math.random() * endings.length)]
-      setCompliment(`You are ${adj}. ${action}, ${ending}`)
+      setCompliment(`Sos ${adj}. ${action}, ${ending}`)
       setIsSpinning(false)
     }, 600)
   }, [])
@@ -64,10 +64,10 @@ export function ComplimentGenerator() {
     <section className="px-4 py-16">
       <div className="mx-auto max-w-lg text-center">
         <h2 className="mb-2 font-serif text-3xl font-bold text-foreground md:text-4xl">
-          Compliment Machine
+          Maquina de Piropos
         </h2>
         <p className="mb-8 text-muted-foreground">
-          Warning: Side effects may include excessive blushing
+          Advertencia: Los efectos secundarios pueden incluir sonrojarse demasiado
         </p>
 
         <div className="mb-8 min-h-[120px] flex items-center justify-center rounded-2xl border-2 border-dashed border-primary/30 bg-card p-6">
@@ -77,7 +77,7 @@ export function ComplimentGenerator() {
             </p>
           ) : (
             <p className="text-muted-foreground italic">
-              Press the button for a totally real, not-at-all-exaggerated compliment...
+              Apreta el boton para un piropo totalmente real, para nada exagerado...
             </p>
           )}
         </div>
@@ -92,7 +92,7 @@ export function ComplimentGenerator() {
           ) : (
             <Sparkles className="mr-2 h-5 w-5" />
           )}
-          {compliment ? "Another One!" : "Generate Compliment"}
+          {compliment ? "Otro Mas!" : "Generar Piropo"}
         </Button>
       </div>
     </section>

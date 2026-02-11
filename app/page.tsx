@@ -57,10 +57,10 @@ export default function ValentinePage() {
       {/* Footer */}
       <footer className="pb-12 pt-16 text-center">
         <p className="font-serif text-2xl font-bold text-primary md:text-3xl text-balance">
-          I love you to the moon and back
+          Te quiero hasta la luna y de vuelta
         </p>
         <p className="mt-2 text-muted-foreground">
-          ...and then to the moon again, just to be safe.
+          ...y despues hasta la luna otra vez, por las dudas.
         </p>
         <div className="mt-6 flex items-center justify-center gap-1">
           {Array.from({ length: 5 }, (_, i) => (
@@ -75,7 +75,7 @@ export default function ValentinePage() {
           ))}
         </div>
         <p className="mt-6 text-xs text-muted-foreground">
-          Made with an unreasonable amount of love
+          Hecho con una cantidad irrazonable de amor
         </p>
       </footer>
     </main>

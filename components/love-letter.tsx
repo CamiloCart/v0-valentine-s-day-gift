@@ -10,10 +10,10 @@ export function LoveLetter() {
     <section className="px-4 py-16">
       <div className="mx-auto max-w-lg text-center">
         <h2 className="mb-2 font-serif text-3xl font-bold text-foreground md:text-4xl">
-          A Very Dramatic Love Letter
+          Una Carta de Amor Muy Dramatica
         </h2>
         <p className="mb-8 text-muted-foreground">
-          Proceed with extreme emotional caution
+          Proceder con extrema precaucion emocional
         </p>
 
         <div className="relative mx-auto max-w-md">
@@ -34,7 +34,7 @@ export function LoveLetter() {
                 <Mail className="h-8 w-8 text-primary" />
               )}
               <span className="font-serif text-lg font-bold text-foreground">
-                {isOpen ? "Close Letter" : "Open this letter..."}
+                {isOpen ? "Cerrar Carta" : "Abri esta carta..."}
               </span>
             </div>
           </button>
@@ -46,34 +46,34 @@ export function LoveLetter() {
               style={{ animation: "slide-up 0.6s ease-out" }}
             >
               <p className="mb-4 font-serif text-sm italic text-muted-foreground">
-                *clears throat dramatically*
+                *se aclara la garganta dramaticamente*
               </p>
               <p className="mb-4 text-foreground leading-relaxed">
-                My Dearest, Most Wonderful, Absolutely Magnificent Human,
+                Mi Queridisimo/a, Maravillosisimo/a, Absolutamente Magnifico/a Ser Humano,
               </p>
               <p className="mb-4 text-foreground leading-relaxed">
-                From the moment I first saw you, the stars rearranged themselves into a giant neon sign that said
-                {' "THIS ONE."'} The birds sang in four-part harmony. A rainbow appeared. Two rainbows, actually.
-                And a unicorn winked at me. Okay maybe not the unicorn part, but EVERYTHING ELSE IS TRUE.
+                Desde el momento en que te vi por primera vez, las estrellas se reacomodaron en un cartel de neon gigante que decia
+                {' "ESTE/A."'} Los pajaros cantaron en armonia a cuatro voces. Aparecio un arcoiris. Dos arcoiris, en realidad.
+                Y un unicornio me guinio el ojo. Bueno, quizas lo del unicornio no, pero TODO LO DEMAS ES VERDAD.
               </p>
               <p className="mb-4 text-foreground leading-relaxed">
-                You are the peanut butter to my jelly, the WiFi to my phone, the extra fry at the bottom of the bag.
-                You are the reason I smile at my phone like a weirdo on the bus.
+                Sos la manteca de mi tostada, el WiFi de mi celular, la papa frita extra al fondo de la bolsa.
+                Sos la razon por la que sonrio mirando el telefono como un/a boludo/a en el colectivo.
               </p>
               <p className="mb-4 text-foreground leading-relaxed">
-                If love were a sport, I would be the Michael Jordan of loving you. If love were a pizza,
-                ours would have ALL the toppings. Even the controversial ones. {"That's"} how much I love you.
+                Si el amor fuera un deporte, yo seria el Messi de amarte. Si el amor fuera una pizza,
+                la nuestra tendria TODOS los ingredientes. Hasta los polemicos. Asi de mucho te quiero.
               </p>
               <p className="mb-4 text-foreground leading-relaxed">
-                In conclusion: you are stuck with me forever. No refunds. No exchanges.
-                Just an endless supply of hugs, bad jokes, and someone who thinks {"you're"} the greatest thing
-                since sliced bread (and I REALLY love sliced bread).
+                En conclusion: me vas a tener que aguantar para siempre. No se aceptan devoluciones. No hay cambios.
+                Solo una cantidad infinita de abrazos, chistes malos, y alguien que piensa que sos lo mejor
+                que le paso a la humanidad desde que se invento el dulce de leche.
               </p>
               <p className="mb-2 font-serif text-lg font-bold text-primary">
-                Forever & Always & Then Some More,
+                Por Siempre y Para Siempre y Despues Un Poco Mas,
               </p>
               <p className="font-serif text-lg text-primary italic">
-                Your Biggest Fan
+                Tu Fan Numero Uno
               </p>
               <div className="mt-4 flex justify-end">
                 <svg viewBox="0 0 24 24" fill="currentColor" className="h-8 w-8 text-primary animate-heartbeat">
