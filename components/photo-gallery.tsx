@@ -17,17 +17,17 @@ const photos = [
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG20251018222452-RuooFl0PTkmoLUr3FRmrYtaiIcrVTw.jpg",
     alt: "Momento dulce en el cafe",
-    caption: "Cada beso es una promesa",
+    caption: "Cada beso es un te amo silencioso (incluye lamidas de cachete)",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG20251018222521-z3TgzV1QfpZ5MdAvNl6QDTGr5hMtB5.jpg",
     alt: "Sonriendo juntos",
-    caption: "Tu sonrisa ilumina mi mundo",
+    caption: "Por mas viajecitos asi :D",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG20250912233524-KpStzxHt9anCIshplzn9CxO88alr0Q.jpg",
     alt: "Abrazos en la cocina",
-    caption: "Los mejores momentos son los simples",
+    caption: "joder como me gustas",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG20250908150237-yp1b8Y9DH2O1v4wdeX9HvMxfqBCfYp.jpg",
@@ -37,7 +37,7 @@ const photos = [
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG20250926174644-nBEAeUw6Af4W6EJRpu1mnCqLr2Ao2H.jpg",
     alt: "Jugando juntos",
-    caption: "Siempre haciendo travesuras",
+    caption: "efectivamente no soy fotogenico",
   },
   {
     src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG20250908150338-PX4oNVsxZ7ZHMzbq8oAy8w0qecIyBU.jpg",
@@ -90,11 +90,10 @@ export function PhotoGallery() {
                   <img
                     src={photo.src}
                     alt={photo.alt}
-                    className={`absolute inset-0 h-full w-full object-cover transition-all duration-700 ${
-                      isRevealed ? "blur-0 scale-100" : "blur-2xl scale-110"
-                    }`}
+                    className={`absolute inset-0 h-full w-full object-cover transition-all duration-700 ${isRevealed ? "blur-0 scale-100" : "blur-2xl scale-110"
+                      }`}
                   />
-                  
+
                   {/* Reveal overlay */}
                   {!isRevealed && (
                     <div className="absolute inset-0 flex items-center justify-center bg-black/40 backdrop-blur-sm transition-opacity duration-300 group-hover:bg-black/30">
