@@ -5,17 +5,17 @@ import { Sparkles, RefreshCw } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const adjectives = [
-  "deslumbrantemente hermoso/a",
+  "deslumbrantemente hermosa",
   "ridiculamente adorable",
-  "sospechosamente encantador/a",
+  "sospechosamente encantadoa",
   "peligrosamente abrazable",
-  "ilegalmente tierno/a",
-  "absurdamente maravilloso/a",
-  "escandalosamente querible",
-  "catastroficamente bello/a",
+  "ilegalmente tierna",
+  "absurdamente maravillosa",
+  "escandalosamente linda",
+  "catastroficamente bella",
   "abrumadoramente achuchable",
-  "hilarantemente perfecto/a",
-  "impactantemente divino/a",
+  "hilarantemente perfecta",
+  "impactantemente divina",
   "irrazonablemente dulce",
 ]
 
@@ -24,7 +24,7 @@ const actions = [
   "Los cientificos te estan estudiando para entender la ternura maxima",
   "Los cachorros te tienen envidia de lo adorable que sos",
   "La NASA quiere orbitar alrededor de tu resplandor",
-  "El sol llamo, quiere que le devuelvas el calor",
+  "El sol llamo, quiere que le devuelvas su luz",
   "Los espejos no pueden creer su suerte cuando te miras",
   "Las flores florecen cuando pasas (es verdad, lo vi)",
   "Tu risa podria curar cualquier mal dia en 5 km a la redonda",
