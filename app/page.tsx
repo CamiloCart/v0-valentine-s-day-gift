@@ -70,7 +70,8 @@ export default function ValentinePage() {
           ))}
         </div>
         <p className="mt-6 text-xs text-muted-foreground">
-          Hecho con una cantidad irrazonable de amor
+          Hecho con dos cafes por noche, muchos tutoriales, unos plagios de pinterest
+          y mucho amorsito.
         </p>
       </footer>
     </main>

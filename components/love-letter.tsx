@@ -13,7 +13,7 @@ export function LoveLetter() {
           Una Carta de Amor Muy Dramatica (para mi gusto)
         </h2>
         <p className="mb-8 text-muted-foreground">
-          Proceder con extrema precaucion emocional
+          Proceder con extrema precaucion emocional y aguantarse la risa x favor
         </p>
 
         <div className="relative mx-auto max-w-md">
@@ -64,18 +64,18 @@ export function LoveLetter() {
               </p>
               <p className="mb-4 text-foreground leading-relaxed">
                 En conclusion: me vas a tener que aguantar para siempre. No se aceptan devoluciones. No hay cambios.
-                Solo una cantidad infinita de  chistes malos, y alguien que piensa que sos lo mejor
+                Solo una cantidad infinita de chistes malos, y alguien que piensa que sos lo mejor
                 que le paso a la humanidad desde que se invento el dulce de leche y el lol.
               </p>
               <p className="mb-4 text-foreground leading-relaxed">
                 Ahora de verdad y sin exagerar...
-                Te amo, te amo como nunca ame a nadie y se que ya te lo dije pero dejarlo escrito de esta amnera espero que ayude a recordartelo cuando hasta a mi se me olvide decirtelo, porque siempre te estoy amando, incluso cuando no te veo, cuando no te hable, cuando estes lejos, cuando vos no me quieras ver, Siempre te estoy amando. Desde lo mas profundo de mi corazon, y con todo lo que sos, con tu hermoso cuerpo, con tu linda cara, tu personalidad agradable y tu paciencia escasa. Te amo y te quiero en mi vida todo lo que quede de ella. {"<3"}.
+                Te amo, te amo como nunca ame a nadie y se que ya te lo dije pero dejarlo escrito de esta manera espero que ayude a recordartelo cuando hasta a mi se me olvide decirtelo, porque siempre te estoy amando, incluso cuando no te veo, cuando no te hable, cuando estes lejos, cuando vos no me quieras ver, Siempre te estoy amando. Desde lo mas profundo de mi corazon, y con todo lo que sos, con tu hermoso cuerpo, con tu linda cara, tu personalidad agradable y tu paciencia escasa. Te amo y te quiero en mi vida todo lo que quede de ella. {"<3"}.
               </p>
               <p className="mb-2 font-serif text-lg font-bold text-primary">
                 Por Siempre y Para Siempre y Despues Un Poco Mas,
               </p>
               <p className="font-serif text-lg text-primary italic">
-                Tu Fan Numero Uno y si todo sale bien futuro marido
+                Tu fan numero uno y si todo sale bien futuro marido
               </p>
               <div className="mt-4 flex justify-end">
                 <svg viewBox="0 0 24 24" fill="currentColor" className="h-8 w-8 text-primary animate-heartbeat">
