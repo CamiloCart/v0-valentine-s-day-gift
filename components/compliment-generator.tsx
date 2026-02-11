@@ -31,7 +31,7 @@ const actions = [
   "El diccionario agrego tu foto al lado de 'perfeccion'",
   "Las mariposas sienten mariposas cuando te ven",
   "El WiFi agarra mejor cerca tuyo (probablemente)",
-  "Eres la ponmi más skibidi que conozco, mi looksmaxxing queda encantado, cuando te veo me siento el chiki ibai más afortunado. Gracias a ti soy Sigma y mi mewing está en su prime, diría que... El prime no está cansado gracias a ti, contigo descubrí que el Xocas es grandioso ¡wohoo! Si puedo ser toilet sin estar cansado jefe, gracias por ser el {:} de mi {v}, por ti estoy en asendecia. Eres mi lugar favorito como pisos picados jiji y tenerte para mí es como una victoria magistral de Fornite, por ti yo me volveria el titán speakerman! ¡Wohoo! Gracias por ser mi chambeador@ ¡TE AMOOO!"
+  "Eres la ponmi más skibidi que conozco, mi looksmaxxing queda encantado, cuando te veo me siento el chiki ibai más afortunado. Gracias a ti soy Sigma y mi mewing está en su prime, diría que... El prime no está cansado gracias a ti, contigo descubrí que el Xocas es grandioso ¡wohoo! Si puedo ser toilet sin estar cansado jefe, gracias por ser el ':' de mi 'V', por ti estoy en asendecia. Eres mi lugar favorito como pisos picados jiji y tenerte para mí es como una victoria magistral de Fornite, por ti yo me volveria el titán speakerman! ¡Wohoo! Gracias por ser mi chambeador@ ¡TE AMOOO!"
 ]
 
 const endings = [
@@ -51,6 +51,12 @@ export function ComplimentGenerator() {
   const audioRef = useRef<HTMLAudioElement | null>(null)
 
   const generateCompliment = useCallback(() => {
+    // Stop any currently playing audio
+    if (audioRef.current) {
+      audioRef.current.pause()
+      audioRef.current.currentTime = 0
+    }
+
     setIsSpinning(true)
     setTimeout(() => {
       const adj = adjectives[Math.floor(Math.random() * adjectives.length)]
@@ -63,7 +69,6 @@ export function ComplimentGenerator() {
       // Play audio if action index is 11 (the skibidi compliment)
       if (actionIndex === 11) {
         if (audioRef.current) {
-          audioRef.current.currentTime = 0
           audioRef.current.play().catch((error) => {
             console.log("[v0] Audio playback failed:", error)
           })
