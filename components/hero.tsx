@@ -14,13 +14,13 @@ export function Hero() {
 
         <h1 className="mb-6 font-serif text-5xl font-bold leading-tight text-foreground md:text-7xl lg:text-8xl text-balance">
           Sos Mi <br />
-          <span className="text-primary">Persona</span>{" "}
-          <span className="inline-block animate-wiggle">Favorita</span>
+          <span className="text-primary">Churrito</span>{" "}
+          <span className="inline-block animate-wiggle">Favorito</span>
         </h1>
 
         <p className="mx-auto mb-8 max-w-xl text-lg text-muted-foreground leading-relaxed md:text-xl">
-          Te hice esta web ridiculamente tierna porque una tarjeta normal
-          no era lo suficientemente extra. Scrollea para la locura total.
+          Te hice esta web ridiculamente tierna porque una tarjeta normal no entraba en el presupuesto
+          te amo churrito
         </p>
 
         <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
@@ -29,7 +29,7 @@ export function Hero() {
             className="inline-flex items-center gap-2 rounded-full bg-primary px-8 py-3 font-semibold text-primary-foreground transition-all hover:scale-105 active:scale-95"
           >
             <Heart className="h-5 w-5 fill-current" />
-            Explorar las Locuras
+            Explorar cosas q me recomendo poner pinterest
           </a>
           <a
             href="#love-letter"

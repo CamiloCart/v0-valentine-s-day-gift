@@ -3,17 +3,16 @@
 import { Heart } from "lucide-react"
 
 const reasons = [
-  "Tu risa es contagiosa",
+  "Me gusta cuando sonreis",
   "Bancas todas mis locuras",
   "Haces que la tostada quemada sepa gourmet",
-  "Tus pasos de baile horribles son adorables",
-  "Me seguis queriendo despues de verme a las 6am",
+  "Me encanta como bailas",
+  "Me seguis queriendo despues de escuchar mis chistes y mis problemas",
   "Fingis que mis chistes son graciosos",
   "Compartis tus papas fritas (a veces)",
   "Sos la mejor cucharita grande Y chiquita",
   "Oles bien (la mayor parte del tiempo)",
-  "Cada dia con vos es una aventura",
-  "Me cebas los mejores mates del universo",
+  "Cada dia con vos es uno en el que me alejo de mis problemas",
 ]
 
 export function ReasonsTicker() {
