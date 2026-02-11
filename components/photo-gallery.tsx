@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image"
 import { Heart } from "lucide-react"
 
 export function PhotoGallery() {
@@ -24,12 +23,10 @@ export function PhotoGallery() {
           {/* First photo - couple selfie */}
           <div className="group relative overflow-hidden rounded-3xl bg-card shadow-lg transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl">
             <div className="relative aspect-[3/4]">
-              <Image
+              <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Imagen%20de%20WhatsApp%202025-11-17%20a%20las%2000.55.18_f487cfbc-hGp5Rs8ExHnvk3tBYK4dhpBBoxRtou.jpg"
                 alt="Nuestro momento especial juntos"
-                fill
-                className="object-cover transition-transform duration-500 group-hover:scale-105"
-                sizes="(max-width: 768px) 100vw, 50vw"
+                className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
               <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-full transition-transform duration-300 group-hover:translate-y-0">
@@ -43,12 +40,10 @@ export function PhotoGallery() {
           {/* Second photo - walking together */}
           <div className="group relative overflow-hidden rounded-3xl bg-card shadow-lg transition-all duration-500 hover:scale-[1.02] hover:shadow-2xl">
             <div className="relative aspect-[3/4]">
-              <Image
+              <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Imagen%20de%20WhatsApp%202025-11-17%20a%20las%2001.04.44_99366c89-wi1TmOmungRyIRwyrZjW9AAsodKfuD.jpg"
                 alt="Caminando juntos por las calles"
-                fill
-                className="object-cover transition-transform duration-500 group-hover:scale-105"
-                sizes="(max-width: 768px) 100vw, 50vw"
+                className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
               <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-full transition-transform duration-300 group-hover:translate-y-0">
