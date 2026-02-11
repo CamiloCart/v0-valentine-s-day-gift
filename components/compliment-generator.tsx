@@ -20,7 +20,7 @@ const adjectives = [
 ]
 
 const actions = [
-  "Tu sonrisa podria darle energia a Buenos Aires por una semana",
+  "El peru llamo, quieren que le devuelva a su flaca mas hermosa",
   "Los cientificos te estan estudiando para entender la ternura maxima",
   "Los cachorros te tienen envidia de lo adorable que sos",
   "La NASA quiere orbitar alrededor de tu resplandor",

@@ -1,6 +1,7 @@
 import { FloatingHearts } from "@/components/floating-hearts"
 import { Hero } from "@/components/hero"
 import { ReasonsTicker } from "@/components/reasons-ticker"
+import { PhotoGallery } from "@/components/photo-gallery"
 import { LoveMeter } from "@/components/love-meter"
 import { ComplimentGenerator } from "@/components/compliment-generator"
 import { LoveCoupons } from "@/components/love-coupons"
@@ -27,6 +28,10 @@ export default function ValentinePage() {
       <Hero />
 
       <ReasonsTicker />
+
+      <PhotoGallery />
+
+      <SectionDivider />
 
       <div id="love-meter">
         <LoveMeter />
